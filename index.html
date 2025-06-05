@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Objetivos do ENEM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="conteudo-principal">
+        <h2 class="titulo-principal">Meus objetivos para o ENEM<span>_</span></h2>
+        <div class="conteudo">
+            <div class="botoes">
+                <button class="botao ativo">Revisar matérias</button>
+                <button class="botao">Fazer resumos</button>
+                <button class="botao">Saúde mental</button>
+                <button class="botao">Documentos</button>
+            </div>
+            <div class="abas-textos">
+                <div class="aba-conteudo ativo">
+                    <h3 class="aba-conteudo-titulo-principal">Revisar todas as matérias do ENEM com foco e disciplina</h3>
+                    <h4 class="aba-conteudo-titulo-secundario">Tempo restante</h4>
+                    <div class="contador">
+                        <div class="contador-digito"><p class="contador-digito-numero" id="dias0"></p><p class="contador-digito-texto">dias</p></div>
+                        <div class="contador-digito"><p class="contador-digito-numero" id="horas0"></p><p class="contador-digito-texto">horas</p></div>
+                        <div class="contador-digito"><p class="contador-digito-numero" id="min0"></p><p class="contador-digito-texto">min</p></div>
+                        <div class="contador-digito"><p class="contador-digito-numero" id="seg0"></p><p class="contador-digito-texto">seg</p></div>
+                    </div>
+                </div>
+                <div class="aba-conteudo">
+                    <h3 class="aba-conteudo-titulo-principal">Fazer resumos e mapas mentais coloridos</h3>
+                    <ul class="checklist">
+                        <li><label><input type="checkbox"> Separar os conteúdos por matéria</label></li>
+                        <li><label><input type="checkbox"> Usar uma paleta de cores para cada tema</label></li>
+                        <li><label><input type="checkbox"> Utilizar imagens e palavras-chave</label></li>
+                        <li><label><input type="checkbox"> Revisar semanalmente</label></li>
+                        <li><label><input type="checkbox"> Fazer mapas mentais para matérias longas</label></li>
+                    </ul>
+                </div>
+                <div class="aba-conteudo">
+                    <h3 class="aba-conteudo-titulo-principal">Cuidar da minha saúde mental e bem-estar</h3>
+                    <ul class="checklist">
+                        <li><label><input type="checkbox"> Reservar um momento sem celular</label></li>
+                        <li><label><input type="checkbox"> Fazer algo que me deixa feliz</label></li>
+                        <li><label><input type="checkbox"> Praticar atividades físicas leves</label></li>
+                        <li><label><input type="checkbox"> Conversar com pessoas próximas</label></li>
+                        <li><label><input type="checkbox"> Dormir bem e manter rotina</label></li>
+                    </ul>
+                </div>
+                <div class="aba-conteudo">
+                    <h3 class="aba-conteudo-titulo-principal">Organizar documentos para o vestibular</h3>
+                    <ul class="checklist">
+                        <li><label><input type="checkbox"> Separar RG, CPF e comprovante</label></li>
+                        <li><label><input type="checkbox"> Imprimir cartão de inscrição</label></li>
+                        <li><label><input type="checkbox"> Organizar certificados e comprovantes</label></li>
+                        <li><label><input type="checkbox"> Guardar tudo em uma pasta segura</label></li>
+                        <li><label><input type="checkbox"> Verificar prazos do SISU e vestibulares</label></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="main.js"></script>
+
+<audio id="musicaFundo" autoplay loop>
+    <source src="musica.mp3" type="audio/mpeg">
+</audio>
+<audio id="somCheckbox">
+    <source src="efeito.mp3" type="audio/mpeg">
+</audio>
+</body>
+
+</html>
